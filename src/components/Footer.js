@@ -12,7 +12,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-3xl font-display font-bold mb-4">AURELIA</h3>
+            <img 
+  src="/img/logo.png" 
+  alt="AURELIA" 
+  className="h-12 w-auto mb-4 brightness-0 invert"
+  width="180"
+  height="52"
+/>
             <p className="text-gray-400 mb-4">
               Engineering Excellence. Crafted for Generations.
             </p>

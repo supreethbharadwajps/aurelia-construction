@@ -50,9 +50,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="text-3xl font-display font-bold">
-              <span className="text-primary-600">AURELIA</span>
-            </div>
+             <img 
+    src="/img/logo.png" 
+    alt="AURELIA" 
+    className="h-10 md:h-12 w-auto"
+    width="180"
+    height="52"
+  />
           </Link>
 
           {/* Desktop Navigation */}
